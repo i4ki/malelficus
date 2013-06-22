@@ -1,3 +1,9 @@
 [submodule "libmalelf"]
 	path = libmalelf
 	url = https://github.com/SecPlus/libmalelf.git
+[submodule "malelf"]
+	path = malelf
+	url = https://github.com/SecPlus/malelf.git
+[submodule "malelfgui"]
+	path = malelfgui
+	url = https://github.com/SecPlus/malelfgui.git
