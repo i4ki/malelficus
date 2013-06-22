@@ -1,0 +1,3 @@
+[submodule "libmalelf"]
+	path = libmalelf
+	url = https://github.com/SecPlus/libmalelf.git
