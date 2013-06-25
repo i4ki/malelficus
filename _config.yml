@@ -9,7 +9,7 @@ paginate: 5
 paginate_files:
   - index.html
 
-permalink: /:year/:month/:title
+permalink: /malelficus/:year/:month/:title
 
 markdown: rdiscount
 pygments: true
