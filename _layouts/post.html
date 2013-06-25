@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article class="post">
+
+  <h3><a href="{{ site.url }}{{ page.url }}" rel="bookmark permalink" title="Permanent link to this post">{{ page.title }}</a></h3>
+
+  {{ content }}
+
+<a class="follow-box" href="https://twitter.com/malelficus">
+  <h3>You should probably follow <strong>@malelficus</strong> on Twitter</h3>
+  <p class="subtext">I'm a straight shooter with upper management written all over me.</p>
+</a>
+
+  <div class="meta">
+   <div class="published">
+    Published: {{ page.date | date: "%Y-%m-%d" }}
+   </div>
+   <div class="tweet"><a href="http://twitter.com/?status=Reading '{{ page.title }}' from http://patito.github.com{{ page.url }} by @malelficus" title="Tweet {{ page.title }}">Tweet</a> &amp; <a class="permalink" href="{{ site.url }}{{ page.url }}" rel="bookmark permalink" title="Permalink for {{ page.title }}">Permalink</a>
+	</div>
+  </div>
+
+</article>
+<div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'benatto'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>

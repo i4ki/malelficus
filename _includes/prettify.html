@@ -1,0 +1,29 @@
+<script>
+  // Preload font files and finally patch CSS with custom fonts.
+  // We do this to avoid displaying unreadable text while waiting for data.
+  function finalizer() {
+    var n = document.createElement('link');
+    n.href = '/css/screen.css';
+    n.media = 'screen, projection';
+    n.rel = 'stylesheet';
+    n.type = 'text/css';
+    document.getElementsByTagName('head').item(0).appendChild(n);
+  }
+  var countdown = 1;
+  function fetch(url) {
+    try {
+      var req = new XMLHttpRequest();
+      req.open('GET', url, true);
+      req.onreadystatechange = function () { if (req.readyState == 4) {
+        if (--countdown === 0)
+          finalizer()
+      }};
+      req.send();
+    } catch (e) {}
+  }
+  fetch('http://tjstein.com/fonts/DroidSans-webfont.woff');
+  fetch('http://tjstein.com/fonts/DroidSans-webfont.ttf');
+  fetch('http://tjstein.com/fonts/YanoneKaffeesatz-Regular-webfont.woff');
+  fetch('http://tjstein.com/fonts/YanoneKaffeesatz-Regular-webfont.ttf');
+  if (--countdown === 0) finalizer();
+  </script>

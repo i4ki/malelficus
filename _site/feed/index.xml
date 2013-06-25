@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>TJ Stein</title>
+ <link href="http://tjstein.com/feed/" rel="self"/>
+ <link href="http://tjstein.com/"/>
+ <updated>2013-06-25T14:50:06-03:00</updated>
+ <id>http://tjstein.com/</id>
+ <author>
+   <name>TJ Stein</name>
+   <email>thomasjstein@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>malelficus no FISL 14!</title>
+   <link href="http://tjstein.com/2013/06/be-evil-use-malelficus%21"/>
+   <updated>2013-06-25T00:00:00-03:00</updated>
+   <id>http://tjstein.com/2013/06/be-evil-use-malelficus!</id>
+   <content type="html">&lt;p style=&quot;text-align:justify&quot;&gt;Para todos aqueles que irão participar do Fórum Internacional do Software Livre, será feita uma apresentação sobre o projeto malelficus no sábado dia 07/06 a partir das 16h. É uma grande oportunidade para aqueles que se interessam pela área, de conhecer o projeto, trocaruma idéia e conhecer o pessoal. &lt;/p&gt;
+
+
+
+
+&lt;p&gt;&lt;p style=&quot;text-align:justify&quot;&gt;&lt;i&gt;&quot;O O Fórum Internacional de Software Livre acontece anualmente na cidade de Porto Alegre, RS, Brasil. O fórum é considerado um dos maiores eventos do mundo na área por proporcionar uma discussão técnica, política e social sobre software livre de forma integrada. Reúne discussões, palestras, personalidades e novidades nacionais e internacionais do mundo do software livre.&quot;&lt;/i&gt;&amp;lt;&gt; - Wikipédia &lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;Neste link é possível encontrar toda a programação do evento:
+&lt;a href=&quot;http://fisl.org.br/14/papers_ng/public/fast_grid?event_id=3&quot;&gt;http://fisl.org.br/14/papers_ng/public/fast_grid?event_id=3&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Be evil, use malelficus! &lt;/b&gt;&lt;br&gt;
+&lt;b&gt;Local:&lt;/b&gt; &lt;a href=&quot;http://softwarelivre.org/fisl14&quot;&gt;FISL 14&lt;/a&gt; - PUC/RS - Porto Alegre&lt;br&gt;
+&lt;b&gt;Horário:&lt;/b&gt; Sábado, 06/07 as 16h &lt;br&gt;
+&lt;b&gt;Palestrantes:&lt;/b&gt; Tiago Natel de Moura e Paulo Benatto &lt;br&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>malelficus documentation</title>
+   <link href="http://tjstein.com/2013/06/malelficus-documentation"/>
+   <updated>2013-06-22T00:00:00-03:00</updated>
+   <id>http://tjstein.com/2013/06/malelficus-documentation</id>
+   <content type="html">&lt;p style=&quot;text-align:justify&quot;&gt;Esse final de semana, na tentativa de deixar o projeto o mais apresentável possível, ocorreu um mutirão de codificação e documentação. Para assustar um pouco a galera segue uma imagem dos hax0rs da equipe prontos para adicionar novos bugs no projeto.&lt;/p&gt;
+
+
+&lt;p&gt;&lt;img title=&quot;Hackers programando o malelficus&quot; src=&quot;/images/hacker1.jpg&quot; alt=&quot;Hackers codando o malelficus.&quot; width=&quot;469&quot; height=&quot;352&quot;/&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ 
+</feed>
