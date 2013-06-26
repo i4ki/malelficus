@@ -2,9 +2,9 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>TJ Stein</title>
- <link href="/feed/" rel="self"/>
- <link href=""/>
- <updated>2013-06-26T11:14:06-03:00</updated>
+ <link href="http://secplus.github.io/malelficus/feed/" rel="self"/>
+ <link href="http://secplus.github.io/malelficus"/>
+ <updated>2013-06-26T11:25:18-03:00</updated>
  <id>http://secplus.github.io/malelficus/</id>
  <author>
    <name>malelficus team</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>malelficus no FISL 14!</title>
-   <link href="/malelficus/2013/06/be-evil-use-malelficus%21"/>
+   <link href="http://secplus.github.io/malelficus/malelficus/2013/06/be-evil-use-malelficus%21"/>
    <updated>2013-06-25T00:00:00-03:00</updated>
-   <id>/malelficus/2013/06/be-evil-use-malelficus!</id>
+   <id>http://secplus.github.io/malelficus/malelficus/2013/06/be-evil-use-malelficus!</id>
    <content type="html">&lt;p style=&quot;text-align:justify&quot;&gt;Para todos aqueles que irão participar do Fórum Internacional do Software Livre, será feita uma apresentação sobre o projeto malelficus no sábado dia 07/06 a partir das 16h. É uma grande oportunidade para aqueles que se interessam pela área, de conhecer o projeto, trocaruma idéia e conhecer o pessoal. &lt;/p&gt;
 
 
@@ -37,9 +37,9 @@
  
  <entry>
    <title>malelficus documentation</title>
-   <link href="/malelficus/2013/06/malelficus-documentation"/>
+   <link href="http://secplus.github.io/malelficus/malelficus/2013/06/malelficus-documentation"/>
    <updated>2013-06-22T00:00:00-03:00</updated>
-   <id>/malelficus/2013/06/malelficus-documentation</id>
+   <id>http://secplus.github.io/malelficus/malelficus/2013/06/malelficus-documentation</id>
    <content type="html">&lt;p style=&quot;text-align:justify&quot;&gt;Esse final de semana, na tentativa de deixar o projeto o mais apresentável possível, ocorreu um mutirão de codificação e documentação. Para assustar um pouco a galera segue uma imagem dos hax0rs da equipe prontos para adicionar novos bugs no projeto.&lt;/p&gt;
 
 
