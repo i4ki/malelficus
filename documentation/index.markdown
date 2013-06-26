@@ -739,19 +739,19 @@ Example: malelf dissect -i /bin/ls -f xml -o /tmp/binary.xml
 
 <p style="text-align:justify"> <b>malelfgui</b> é um front-end visual para o projeto malelf, utilizando Qt. Está em estágio inicial de desenvolvimento e, por isso, deixaremos essa parte para escrever em outro momento. Porém sinta-se a vontade de entrar no github e meter a mão na massa. </p>
 
-- <a href="{{ site.baseurl }}/https://github.com/SecPlus/malelfgui">https://github.com/SecPlus/malelfgui</a>
+- <a href="{{ baseurl }}/https://github.com/SecPlus/malelfgui">https://github.com/SecPlus/malelfgui</a>
 
 <a id="links"></a>
 ## 5 - Links ##
 
 [1] - Executable and Linkable Format
-  <a href="{{ site.baseurl }}/http://en.wikipedia.org/wiki/Executable_and_Linkable_Format">http://en.wikipedia.org/wiki/Executable_and_Linkable_Format</a>
+  <a href="{{ baseurl }}/http://en.wikipedia.org/wiki/Executable_and_Linkable_Format">http://en.wikipedia.org/wiki/Executable_and_Linkable_Format</a>
 
 [2] - OS Dev - ELF
-  <a href="{{ site.baseurl }}/http://wiki.osdev.org/ELF">http://wiki.osdev.org/ELF</a>
+  <a href="{{ baseurl }}/http://wiki.osdev.org/ELF">http://wiki.osdev.org/ELF</a>
 
 [3] - Dissecando ELF
-  <a href="{{ site.baseurl }}/http://0fx66.com/files/zines/cogumelo-binario/edicoes/1/DissecandoELF.txt">http://0fx66.com/files/zines/cogumelo-binario/edicoes/1/DissecandoELF.txt</a>
+  <a href="{{ baseurl }}/http://0fx66.com/files/zines/cogumelo-binario/edicoes/1/DissecandoELF.txt">http://0fx66.com/files/zines/cogumelo-binario/edicoes/1/DissecandoELF.txt</a>
 
 <a id="conclusao"></a>
 ## 6 - Conclusão ##

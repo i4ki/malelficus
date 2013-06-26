@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- 
+
  <title>TJ Stein</title>
- <link href="http://tjstein.com/feed/" rel="self"/>
- <link href="http://tjstein.com/"/>
- <updated>2013-06-26T10:26:43-03:00</updated>
- <id>http://tjstein.com/</id>
+ <link href="/feed/" rel="self"/>
+ <link href=""/>
+ <updated>2013-06-26T10:44:58-03:00</updated>
+ <id>http://secplus.github.io/malelficus/</id>
  <author>
-   <name>TJ Stein</name>
-   <email>thomasjstein@gmail.com</email>
+   <name>malelficus team</name>
+   <email>malelficus@secplus.com.br</email>
  </author>
 
  
  <entry>
    <title>malelficus no FISL 14!</title>
-   <link href="http://tjstein.com/2013/06/be-evil-use-malelficus%21"/>
+   <link href="/2013/06/be-evil-use-malelficus%21"/>
    <updated>2013-06-25T00:00:00-03:00</updated>
-   <id>http://tjstein.com/2013/06/be-evil-use-malelficus!</id>
+   <id>/2013/06/be-evil-use-malelficus!</id>
    <content type="html">&lt;p style=&quot;text-align:justify&quot;&gt;Para todos aqueles que irão participar do Fórum Internacional do Software Livre, será feita uma apresentação sobre o projeto malelficus no sábado dia 07/06 a partir das 16h. É uma grande oportunidade para aqueles que se interessam pela área, de conhecer o projeto, trocaruma idéia e conhecer o pessoal. &lt;/p&gt;
 
 
@@ -37,15 +37,15 @@
  
  <entry>
    <title>malelficus documentation</title>
-   <link href="http://tjstein.com/2013/06/malelficus-documentation"/>
+   <link href="/2013/06/malelficus-documentation"/>
    <updated>2013-06-22T00:00:00-03:00</updated>
-   <id>http://tjstein.com/2013/06/malelficus-documentation</id>
+   <id>/2013/06/malelficus-documentation</id>
    <content type="html">&lt;p style=&quot;text-align:justify&quot;&gt;Esse final de semana, na tentativa de deixar o projeto o mais apresentável possível, ocorreu um mutirão de codificação e documentação. Para assustar um pouco a galera segue uma imagem dos hax0rs da equipe prontos para adicionar novos bugs no projeto.&lt;/p&gt;
 
 
-&lt;p&gt;&lt;img title=&quot;Hackers programando o malelficus&quot; src=&quot;/images/hacker1.jpg&quot; alt=&quot;Hackers codando o malelficus.&quot; width=&quot;469&quot; height=&quot;352&quot;/&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img title=&quot;Hackers programando o malelficus&quot; src=&quot;http://secplus.github.io/malelficus/images/hacker1.jpg&quot; alt=&quot;Hackers codando o malelficus.&quot; width=&quot;469&quot; height=&quot;352&quot;/&gt;&lt;/p&gt;
 </content>
  </entry>
  
- 
+
 </feed>
