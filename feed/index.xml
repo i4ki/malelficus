@@ -5,8 +5,8 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>TJ Stein</title>
- <link href="{{ baseurl }}/feed/" rel="self"/>
- <link href="{{ baseurl }}"/>
+ <link href="http://secplus.github.io/malelficus/feed/" rel="self"/>
+ <link href="http://secplus.github.io/malelficus"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://secplus.github.io/malelficus/</id>
  <author>
@@ -17,9 +17,9 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="{{ baseurl }}{{ post.url }}"/>
+   <link href="http://secplus.github.io/malelficus{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ baseurl }}{{ post.id }}</id>
+   <id>http://secplus.github.io/malelficus{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
