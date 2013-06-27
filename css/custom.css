@@ -147,22 +147,22 @@ a.icon-link {
     text-align: left;
 }
 a#feed-link {
-    background: url("/images/sprite.png") no-repeat scroll -9px -8px transparent;
+    background: url("http://secplus.github.io/malelficus/images/sprite.png") no-repeat scroll -9px -8px transparent;
 }
 a#flickr-link {
-    background: url("/images/sprite.png") no-repeat scroll -9px -44px transparent;
+    background: url("http://secplus.github.io/malelficus/images/sprite.png") no-repeat scroll -9px -44px transparent;
 }
 a#github-link {
-    background: url("/images/sprite.png") no-repeat scroll -9px -117px transparent;
+    background: url("http://secplus.github.io/malelficus/images/sprite.png") no-repeat scroll -9px -117px transparent;
 }
 a#twitter-link {
-    background: url("/images/sprite.png") no-repeat scroll -9px -80px transparent;
+    background: url("http://secplus.github.io/malelficus/images/sprite.png") no-repeat scroll -9px -80px transparent;
 }
 a#gmail-link {
-    background: url("/images/sprite.png") no-repeat scroll -9px -151px transparent;
+    background: url("http://secplus.github.io/malelficus/images/sprite.png") no-repeat scroll -9px -151px transparent;
 }
 a#skype-link {
-    background: url("/images/sprite.png") no-repeat scroll -9px -188px transparent;
+    background: url("http://secplus.github.io/malelficus/images/sprite.png") no-repeat scroll -9px -188px transparent;
 }
 .pagination {
     font-size: 1.2em;

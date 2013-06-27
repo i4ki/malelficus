@@ -50,7 +50,7 @@ html {
     font-size: 100.01%;
 }
 body {
-    background: url("/images/bg.png") repeat-x scroll 0 0 #FFFFFF;
+    background: url("http://secplus.github.io/malelficus/images/bg.png") repeat-x scroll 0 0 #FFFFFF;
     color: #444444;
     font-family: DroidSansRegular,Arial,Helvetica,sans-serif;
     font-size: 75%;
@@ -870,7 +870,7 @@ code {
     padding: 0 0.3em;
 }
 .highlight pre code {
-	background: url("/images/pre.png") repeat-x scroll 0 0 #F2F2F5;
+	background: url("http://secplus.github.io/malelficus/images/pre.png") repeat-x scroll 0 0 #F2F2F5;
 	box-shadow: 0 2px 4px #D8D8DC;
 	border: 1px solid #D8D8DC;
     color: #000;

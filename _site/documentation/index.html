@@ -114,14 +114,18 @@
 </ul>
 </li>
 <li>4 - <a href="#malelfgui">Projeto malelfgui</a></li>
-<li>5 - <a href="#links">Links</a></li>
-<li>6 - <a href="#conclusao">Conclusão</a></li>
+<li>5 - <a href="#codestyle">Codestyle</a></li>
+<li>6 - <a href="#links">Links</a></li>
+<li>7 - <a href="#conclusao">Conclusão</a></li>
 </ul>
 
 
 <p><a id="introducao"></a></p>
 
-<h2>1 - Introdução</h2>
+<h1> 1 - Introdução </h1>
+
+
+
 
 <p style="text-align:justify">O projeto <b>malelficus</b> começou a ser desenvolvido em 2011 por Tiago Natel de Moura com o objetivo de estudar o formato ELF (Executable and Linkable Format) e disseminar o conhecimento de desenvolvimento e análise de malwares para Linux no cenário nacional.</p>
 
@@ -138,10 +142,10 @@ Atualmente o projeto esta passando por um refactoring para corrigir bugs antigos
 
 
 <ul>
-<li><strong>libmalelf</strong> - https://github.com/SecPlus/libmalelf</li>
-<li><strong>malelf</strong> - https://github.com/SecPlus/malelf</li>
-<li><strong>malelfgui</strong> - https://github.com/SecPlus/malelfgui</li>
-<li><strong>malelficus</strong> - https://github.com/SecPlus/malelficus</li>
+<li><strong>libmalelf</strong> - <a href="https://github.com/SecPlus/libmalelf">https://github.com/SecPlus/libmalelf</a></li>
+<li><strong>malelf</strong> - <a href="https://github.com/SecPlus/malelf">https://github.com/SecPlus/malelf</a></li>
+<li><strong>malelfgui</strong> - <a href="https://github.com/SecPlus/malelfgui">https://github.com/SecPlus/malelfgui</a></li>
+<li><strong>malelficus</strong> - <a href="https://github.com/SecPlus/malelficus">https://github.com/SecPlus/malelficus</a></li>
 </ul>
 
 
@@ -151,13 +155,16 @@ malelficus, já que todos os projetos são separados? O Malelficus é o agregado
 
 <p><a id="arquivoself"></a></p>
 
-<h3>1.1 - O que são arquivos ELF?</h3>
+<h2> 1.1 - O que são arquivos ELF? </h2>
+
+
+
 
 <p style="text-align:justify">O objetivo desse documento não é ensinar o formato ELF, e sim apresentar o projeto <b>malelficus</b>. Por isso, deduzimos que o leitor tenha conhecimento prévio sobre ELF para ler esse documento. Entretanto, retiramos uma parte do documento DissecandoELF.txt (escrito por Felipe Pena (sigsegv) e publicado na Cogumelo Binário 1) explicando o que são arquivos ELF para dar uma visão geral.
 </p>
 
 
-<p style="text-align:justify">  O ELF (Executable and Linking Format) nada mais é do que um formato padrão de arquivo executável, código objeto, objeto compartilhado, e core dumps. Em 1999 ele foi adotado como formato de arquivo binário para Unix e unix-like em x86 pelo projeto 86open. [1] Sua primeira aparição foi no Solaris 2.0 (o conhecido SunOS 5.0), que é baseado no SVR4. [2]</p>
+<p style="text-align:justify">  O ELF (Executable and Linking Format) nada mais é do que um formato padrão de arquivo executável, código objeto, objeto compartilhado, e core dumps. Em 1999 ele foi adotado como formato de arquivo binário para Unix e unix-like em x86 pelo projeto 86open. [1](#link1) Sua primeira aparição foi no Solaris 2.0 (o conhecido SunOS 5.0), que é baseado no SVR4. [2](#link2)</p>
 
 
 
@@ -167,7 +174,10 @@ malelficus, já que todos os projetos são separados? O Malelficus é o agregado
 
 <p><a id="libmalelf"></a></p>
 
-<h2>2 - Libmalelf</h2>
+<h1> 2 - Libmalelf </h1>
+
+
+
 
 <p style="text-align:center"> <i> "The libmalelf is an evil library that could be used for good! It was
 developed with the intent to assist in the process of infecting binaries and
@@ -193,7 +203,8 @@ O objetivo principal da biblioteca é facilitar o estudo de arquivos binários E
 
 <p><a id="build"></a></p>
 
-<h3>2.1 Build</h3>
+<h2> 2.1 Build </h2>
+
 
 <p>  Para baixar o código fonte é necessário que você tenha o git instalado.</p>
 
@@ -223,7 +234,8 @@ programar.</p>
 
 <p><a id="organizacao"></a></p>
 
-<h3>2.2 Organização</h3>
+<h2> 2.2 Organização </h2>
+
 
 <p>Vamos demonstrar como está organizado o código do projeto no github.</p>
 
@@ -271,7 +283,10 @@ programar.</p>
 
 <p><a id="modulobinary"></a></p>
 
-<h3>2.3 Módulo Binary</h3>
+<h2> 2.3 Módulo Binary </h2>
+
+
+
 
 <p style="text-align:justify"> O módulo binary é constituido por dois arquivos: <b>binary.c</b> e <b>binary.h</b>. Podemos dizer que este é o principal módulo da biblioteca, pois ele é o responsável por armazenar todas as informações do binário. Abaixo segue como ele está definido dentro da biblioteca. </p>
 
@@ -340,7 +355,8 @@ até porque o projeto ainda está em desenvolvimento. Demonstramos alguns códig
 
 <p><a id="hellolibmalelf"></a></p>
 
-<h4>2.3.1 - Hello libmalelf</h4>
+<h3> 2.3.1 - Hello libmalelf </h3>
+
 
 <p>  Para iniciarmos os exemplos, vamos começar com o maior clichê do mundo da
 programação.</p>
@@ -375,7 +391,8 @@ Hello Libmalelf bin[0xbfbfd8ec]
 
 <p><a id="nomessecoes"></a></p>
 
-<h4>2.3.2 - Pegando o nome das seções</h4>
+<h3> 2.3.2 - Pegando o nome das seções </h3>
+
 
 <p> <p style="text-align:justify"> A libmalelf fornece alguns métodos que facilitam o programador pegar uma
 determinada seção, <b>malelf_binary_get_section()</b>, passando o objeto <b>MalelfBinary</b>, a posição da seção e o objeto <b>MalelfSection</b> que irá armazenar as informações da seção.</p></p>
@@ -457,7 +474,10 @@ int main()
 
 <p><a id="analisebinario"></a></p>
 
-<h3>2.4 - Análise de binários</h3>
+<h2> 2.4 - Análise de binários </h2>
+
+
+
 
 <p style="text-align:justify"> A libmalelf fornece <i>getters</i> para acessar as informações do <b>ELF Header</b>, <b>Program Header Table</b> e do <b>Section Header Table</b>. Porém, se o programador não gosta de acessar os campos através de getters, o acesso pode ser feito diretamente. </p>
 
@@ -466,7 +486,10 @@ int main()
 
 <p><a id="elfheader"></a></p>
 
-<h4>2.4.1 - ELF Header</h4>
+<h3> 2.4.1 - ELF Header </h3>
+
+
+
 
 <p style="text-align:justify"> As informações sobre o ELF header ficam concentradas dentro do módulo ehdr,
 que é constituído pelos arquivos ehdr.h e ehdr.c. O exemplo a seguir tem o objetivo de imprimir as informações do ELF Header.</p>
@@ -567,7 +590,10 @@ int main()
 
 <p><a id="pht"></a></p>
 
-<h4>2.4.2 - Program Header Table</h4>
+<h3> 2.4.2 - Program Header Table </h3>
+
+
+
 
 <p style="text-align:justify"> Para demonstrar como acessar as informações do <b>Program Header Table</b>,utilizaremos um código que está dentro do módulo <b>dissect</b> do projeto <b>malelf</b>. Mas já adiantando, a idéia é muito semelhante ao exemplo anterior.</p>
 
@@ -632,7 +658,10 @@ int main()
 
 <p><a id="sht"></a></p>
 
-<h4>2.4.3 - Section Header Table</h4>
+<h3> 2.4.3 - Section Header Table </h3>
+
+
+
 
 <p style="text-align:justify"> Vamos a mais um exemplo. Agora vamos utilizar o módulo <b>shdr</b> para imprimir a informação do campo offset. Novamente, podem reparar que o processo é bem semelhante ao que já foi mostrado anteriormente. </p>
 
@@ -684,7 +713,8 @@ int main()
 
 <p><a id="moduloinfect"></a></p>
 
-<h3>2.5 - Módulo Infect</h3>
+<h2> 2.5 - Módulo Infect </h2>
+
 
 <hr />
 
@@ -697,14 +727,20 @@ int main()
 
 <p><a id="report"></a></p>
 
-<h3>2.6 - Reportando Informações</h3>
+<h2> 2.6 - Reportando Informações </h2>
+
+
+
 
 <p style="text-align:justify"> Existem duas formas de gerar relatórios de informações utilizando a <b>libmalelf</b>, através de arquivos <b>xml</b> ou <b>stdout</b>.</p>
 
 
 <p><a id="xml"></a></p>
 
-<h4>2.6.1 - Arquivos XML</h4>
+<h3> 2.6.1 - Arquivos XML </h3>
+
+
+
 
 <p style="text-align:justify"> Para gerar as informações dentro de um arquivo XML a libmalelf dispõe de um
 módulo chamado <b>report</b>. Com isso o programador pode enviar as informações do ELF Header, Section Program Table e Program Header Table para um arquivo no padrão XML.
@@ -764,7 +800,10 @@ int main()
 
 <p><a id="stdout"></a></p>
 
-<h3>2.6.2 - Stdout</h3>
+<h3> 2.6.2 - Stdout </h3>
+
+
+
 
 <p style="text-align:justify"> Para imprimir as informações formatadas no terminal, existe o módulo table, responsável por criar uma tabela ascii e imprimir na shell. Com o objeto MalelfTable, o programador consegue definir o tamanho da tabela, o título e o número de linhas e colunas. </p>
 
@@ -855,13 +894,16 @@ int main()
 
 <p>  E essa é a saída do nosso programa. =)</p>
 
-<p><img src="/images/table.png" align="left" height="140" width="600"><br>
+<p><img src="http://secplus.github.io/malelficus/images/table.png" align="left" height="140" width="600"><br>
 <br>
 <br></p>
 
 <p><a id="modulodebug"></a></p>
 
-<h3>2.7 - Módulo de Debug</h3>
+<h2> 2.7 - Módulo de Debug </h2>
+
+
+
 
 <p style="text-align:justify"> Existe a possibilidade de ver as mensagens que a <b>libmalelf</b> reporta. Para isso, basta exportarmos uma váriavel de ambiente chamada <b>MALELF_DEBUG.</b> </p>
 
@@ -889,14 +931,18 @@ configurar a variável de ambiente <b>MALELF_DEBUG_FILE</b>. </p>
 
 <p><a id="malelf"></a></p>
 
-<h2>3 - Projeto malelf</h2>
+<h1> 3 - Projeto malelf </h1>
+
+
+
 
 <p style="text-align:justify"> O <b>malelf</b> é uma ferramenta que utiliza a libmalelf para analisar e infectar binários ELF. Nessa parte iremos apenas demonstrar como utilizar o binário, porque toda a inteligência do projeto fica dentro da libmalelf que já foi explicada anteriormente. </p>
 
 
 <p><a id="buildmalelf"></a></p>
 
-<h3>3.1 - Build do malelf</h3>
+<h2> 3.1 - Build do malelf </h2>
+
 
 <p>  O processo de build da ferramenta malelf é bem simples.</p>
 
@@ -912,7 +958,8 @@ $ sudo make install
 
 <p><a id="dissect"></a></p>
 
-<h3>3.2 - Usando o módulo dissect</h3>
+<h2> 3.2 - Usando o módulo dissect </h2>
+
 
 <p>  Agora vamos utilizar a ferramenta malelf para pegar as informações do binário.
 Antes de tudo, vamos ver o help do módulo dissect.</p>
@@ -958,7 +1005,8 @@ Example: malelf dissect -i /bin/ls -f xml -o /tmp/binary.xml
 
 <p><a id="infect"></a></p>
 
-<h3>3.3 - Usando o módulo infect</h3>
+<h2> 3.3 - Usando o módulo infect </h2>
+
 
 <hr />
 
@@ -971,7 +1019,10 @@ Example: malelf dissect -i /bin/ls -f xml -o /tmp/binary.xml
 
 <p><a id="malelfgui"></a></p>
 
-<h2>4 - malelfgui</h2>
+<h1> 4 - malelfgui </h1>
+
+
+
 
 <p style="text-align:justify"> <b>malelfgui</b> é um front-end visual para o projeto malelf, utilizando Qt. Está em estágio inicial de desenvolvimento e, por isso, deixaremos essa parte para escrever em outro momento. Porém sinta-se a vontade de entrar no github e meter a mão na massa. </p>
 
@@ -981,22 +1032,46 @@ Example: malelf dissect -i /bin/ls -f xml -o /tmp/binary.xml
 </ul>
 
 
+<p><a id="codestyle"></a></p>
+
+<h1> 5 - Codestyle </h1>
+
+
+<p style="text-align:justify">Visando um melhor entendimento do código, facilitar o desenvolvimento, suporte e a manutenibilidade dos projetos, seguem alguns <i>coding styles</i> que devem ser seguidos nos projetos <b>libmalelf, malelficus e malelfgui.</b></p>
+
+
+<ul>
+<li>Utilize espaços para identação do código (tabspaces);</li>
+<li>Utilize oito espaços para identação;</li>
+<li>Utilize namespaces;</li>
+<li>Documente o código;</li>
+<li>Módulos devem possuir os métodos init() e close() implementados.</li>
+</ul>
+
+
+<p>Para outros casos, utilize o bom senso, sempre pensando na facilidade que o próximo desenvolvedor terá ao utilizar o seu código.</p>
+
 <p><a id="links"></a></p>
 
-<h2>5 - Links</h2>
+<h1> 6 - Links </h1>
 
-<p>[1] - Executable and Linkable Format
-  <a href="http://en.wikipedia.org/wiki/Executable_and_Linkable_Format">http://en.wikipedia.org/wiki/Executable_and_Linkable_Format</a></p>
 
-<p>[2] - OS Dev - ELF
-  <a href="http://wiki.osdev.org/ELF">http://wiki.osdev.org/ELF</a></p>
-
-<p>[3] - Dissecando ELF
+<p><a id="link1"></a>
+[1] - Executable and Linkable Format
+  <a href="http://en.wikipedia.org/wiki/Executable_and_Linkable_Format">http://en.wikipedia.org/wiki/Executable_and_Linkable_Format</a>
+<a id="link2"></a>
+[2] - OS Dev - ELF
+  <a href="http://wiki.osdev.org/ELF">http://wiki.osdev.org/ELF</a>
+<a id="link3"></a>
+[3] - Dissecando ELF
   <a href="http://0fx66.com/files/zines/cogumelo-binario/edicoes/1/DissecandoELF.txt">http://0fx66.com/files/zines/cogumelo-binario/edicoes/1/DissecandoELF.txt</a></p>
 
 <p><a id="conclusao"></a></p>
 
-<h2>6 - Conclusão</h2>
+<h1> 7 - Conclusão </h1>
+
+
+
 
 <p style="text-align:justify"> O projeto <b>malelficus</b> ainda está em sua fase inicial, provavelmente com muitos bugs. A equipe de desenvolvedores do projeto ainda é pequena e com pouco tempo livre, pois a cerveja toma muito tempo dos programadores (sim, esse projeto foi feito por um bando de alcoólatras). Então sinta-se livre para ajudar de qualquer forma com o projeto, seja codando, reportando bugs ou dando ideias. Caso não tenha gostado do projeto, pode tacar tomate, xingar a irmã e até a mãe que está tudo beleza, mas se falar mal do código ai tu vai me ofender. hehehe =) </p>
 

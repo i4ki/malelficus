@@ -2,39 +2,39 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>/</loc>
-    <lastmod>2013-06-26T11:29:37-03:00</lastmod>
+    <lastmod>2013-06-27T14:55:48-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>/archives.html</loc>
-    <lastmod>2013-06-26T11:29:37-03:00</lastmod>
+    <lastmod>2013-06-27T14:55:48-03:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>/about.html</loc>
-    <lastmod>2013-06-26T11:29:37-03:00</lastmod>
+    <lastmod>2013-06-27T14:55:48-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
   <url>
     <loc>/links.html</loc>
-    <lastmod>2013-06-26T11:29:37-03:00</lastmod>
+    <lastmod>2013-06-27T14:55:48-03:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.2</priority>
   </url>
   
     <url>
       <loc>/malelficus/2013/06/be-evil-use-malelficus%21</loc>
-      <lastmod>2013-06-26T11:29:37-03:00</lastmod>
+      <lastmod>2013-06-27T14:55:48-03:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.2</priority>
     </url>
   
     <url>
       <loc>/malelficus/2013/06/malelficus-documentation</loc>
-      <lastmod>2013-06-26T11:29:37-03:00</lastmod>
+      <lastmod>2013-06-27T14:55:48-03:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>0.2</priority>
     </url>

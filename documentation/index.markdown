@@ -39,10 +39,10 @@ Atualmente o projeto esta passando por um refactoring para corrigir bugs antigos
 
 <p style="text-align:justify"> O repositório do projeto pode ser acessado no github através dos links: </p>
 
-* **libmalelf** - https://github.com/SecPlus/libmalelf
-* **malelf** - https://github.com/SecPlus/malelf
-* **malelfgui** - https://github.com/SecPlus/malelfgui
-* **malelficus** - https://github.com/SecPlus/malelficus
+* **libmalelf** - [https://github.com/SecPlus/libmalelf](https://github.com/SecPlus/libmalelf)
+* **malelf** - [https://github.com/SecPlus/malelf](https://github.com/SecPlus/malelf)
+* **malelfgui** - [https://github.com/SecPlus/malelfgui](https://github.com/SecPlus/malelfgui)
+* **malelficus** - [https://github.com/SecPlus/malelficus](https://github.com/SecPlus/malelficus)
 
 <p style="text-align:justify"> Você nesse momento deve estar se perguntando para que serve o repositório
 malelficus, já que todos os projetos são separados? O Malelficus é o agregador, ele linka e faz build dos outros três projetos.</p>
@@ -52,7 +52,7 @@ malelficus, já que todos os projetos são separados? O Malelficus é o agregado
 
 <p style="text-align:justify">O objetivo desse documento não é ensinar o formato ELF, e sim apresentar o projeto <b>malelficus</b>. Por isso, deduzimos que o leitor tenha conhecimento prévio sobre ELF para ler esse documento. Entretanto, retiramos uma parte do documento DissecandoELF.txt (escrito por Felipe Pena (sigsegv) e publicado na Cogumelo Binário 1) explicando o que são arquivos ELF para dar uma visão geral.
 </p>
-<p style="text-align:justify">  O ELF (Executable and Linking Format) nada mais é do que um formato padrão de arquivo executável, código objeto, objeto compartilhado, e core dumps. Em 1999 ele foi adotado como formato de arquivo binário para Unix e unix-like em x86 pelo projeto 86open. [1] Sua primeira aparição foi no Solaris 2.0 (o conhecido SunOS 5.0), que é baseado no SVR4. [2]</p>
+<p style="text-align:justify">  O ELF (Executable and Linking Format) nada mais é do que um formato padrão de arquivo executável, código objeto, objeto compartilhado, e core dumps. Em 1999 ele foi adotado como formato de arquivo binário para Unix e unix-like em x86 pelo projeto 86open. [1](#link1) Sua primeira aparição foi no Solaris 2.0 (o conhecido SunOS 5.0), que é baseado no SVR4. [2](#link2)</p>
 
 <p> Para maiores informações verificar os Links no final do documento.</p>
 
@@ -644,7 +644,7 @@ int main()
 
   E essa é a saída do nosso programa. =)
 
-<img src="/images/table.png" align="left" height="140" width="600"><br>
+<img src="http://secplus.github.io/malelficus/images/table.png" align="left" height="140" width="600"><br>
 <br>
 <br>
 
@@ -756,13 +756,13 @@ Para outros casos, utilize o bom senso, sempre pensando na facilidade que o pró
 
 <a id="links"></a>
 <h1> 6 - Links </h1>
-
+<a id="link1"></a>
 [1] - Executable and Linkable Format
   <a href="http://en.wikipedia.org/wiki/Executable_and_Linkable_Format">http://en.wikipedia.org/wiki/Executable_and_Linkable_Format</a>
-
+<a id="link2"></a>
 [2] - OS Dev - ELF
   <a href="http://wiki.osdev.org/ELF">http://wiki.osdev.org/ELF</a>
-
+<a id="link3"></a>
 [3] - Dissecando ELF
   <a href="http://0fx66.com/files/zines/cogumelo-binario/edicoes/1/DissecandoELF.txt">http://0fx66.com/files/zines/cogumelo-binario/edicoes/1/DissecandoELF.txt</a>
 
