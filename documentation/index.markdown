@@ -25,8 +25,9 @@ title: Documentation
    * 3.2 - [Usando o módulo dissect](#dissect)
    * 3.3 - [Usando o módulo infect](#infect)
  * 4 - [Projeto malelfgui](#malelfgui)
- * 5 - [Links](#links)
- * 6 - [Conclusão](#conclusao)
+ * 5 - [Codestyle](#codestyle)
+ * 6 - [Links](#links)
+ * 7 - [Conclusão](#conclusao)
 
 <a id="introducao"></a>
 ## 1 - Introdução ##
@@ -741,8 +742,20 @@ Example: malelf dissect -i /bin/ls -f xml -o /tmp/binary.xml
 
 - <a href="https://github.com/SecPlus/malelfgui">https://github.com/SecPlus/malelfgui</a>
 
+<a id="codestyle"></a>
+## 5 - Codestyle ##
+Visando um melhor entendimento do código, facilitar o desenvolvimento, suporte e a manutenibilidade dos projetos, seguem alguns <i>coding styles</i> que devem ser seguidos nos projetos <b>libmalelf, malelficus e malelfgui.</b>
+
+- Utilize espaços para identação do código (tabspaces);
+- Utilize oito espaços para identação;
+- Utilize namespaces;
+- Documente o código;
+- Módulos devem possuir os métodos init() e close() implementados.
+
+Para outros casos, utilize o bom senso, sempre pensando na facilidade que o próximo desenvolvedor terá ao utilizar o seu código.
+
 <a id="links"></a>
-## 5 - Links ##
+## 6 - Links ##
 
 [1] - Executable and Linkable Format
   <a href="http://en.wikipedia.org/wiki/Executable_and_Linkable_Format">http://en.wikipedia.org/wiki/Executable_and_Linkable_Format</a>
@@ -754,6 +767,6 @@ Example: malelf dissect -i /bin/ls -f xml -o /tmp/binary.xml
   <a href="http://0fx66.com/files/zines/cogumelo-binario/edicoes/1/DissecandoELF.txt">http://0fx66.com/files/zines/cogumelo-binario/edicoes/1/DissecandoELF.txt</a>
 
 <a id="conclusao"></a>
-## 6 - Conclusão ##
+## 7 - Conclusão ##
 
 <p style="text-align:justify"> O projeto <b>malelficus</b> ainda está em sua fase inicial, provavelmente com muitos bugs. A equipe de desenvolvedores do projeto ainda é pequena e com pouco tempo livre, pois a cerveja toma muito tempo dos programadores (sim, esse projeto foi feito por um bando de alcoólatras). Então sinta-se livre para ajudar de qualquer forma com o projeto, seja codando, reportando bugs ou dando ideias. Caso não tenha gostado do projeto, pode tacar tomate, xingar a irmã e até a mãe que está tudo beleza, mas se falar mal do código ai tu vai me ofender. hehehe =) </p>
