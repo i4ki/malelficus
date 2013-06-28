@@ -4,7 +4,7 @@ title: Home
 ---
 {% for post in site.posts %}
   <article class="post">
-    <h3><a href="{{ site.url }}{{ post.url }}" rel="bookmark permalink" title="Permanent link to this post">{{ post.title }}</a></h3>
+    <h3><a href="http://secplus.github.io{{ site.url }}{{ post.url }}" rel="bookmark permalink" title="Permanent link to this post">{{ post.title }}</a></h3>
 
     {{ post.content }}
 
@@ -12,7 +12,7 @@ title: Home
    <div class="published">
       Published: {{ post.date | date: "%Y-%m-%d" }}
       &mdash;
-      <a href="{{ site.url }}{{ post.url }}#disqus_thread" title="Comments">Comments</a>
+      <a href="http://secplus.github.io{{ site.url }}{{ post.url }}#disqus_thread" title="Comments">Comments</a>
    </div>
   </div>
 
