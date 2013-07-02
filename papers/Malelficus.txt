@@ -1,0 +1,39 @@
+Linux Malwares por i4k
+
+Índice
+
+0000 Apresentação
+
+0001 Introdução
+
+0010 Windows
+
+0011 Linux
+
+
+
+00 - Apresentação
+
+O texto a seguir pretende trilhar os iniciantes no processo de
+desenvolvimento de malwares para sistemas operacionais baseados no
+Unix como BSDs (FreeBSD, OpenBSD, etc) e Linux (debian, redhat,
+ubuntu, etc). Todos os exemplos foram testados no debian 6 (i386)
+(unstable) com kernel 3.8.2, mas devem funcionar com pouca (ou
+nenhuma) alteração em kernels 2.6.x.
+
+i4k@secplus:~$ uname -a Linux secplus 3.8.2 #1 SMP Tue Mar 12 22:59:18
+BRT 2013 i686 GNU/Linux
+
+Não foi realizado testes para os sistemas operacionais BSD, mas toda a
+teoria e os exemplos mostrados devem se aplicar sem problemas.
+
+01 - Introdução
+
+O grande problema é que, como os administradores de sistemas unix
+acreditam que malwares pra linux ou BSD são raros e inofensivos, estes
+servidores acabam por não possuir ferramentas de AV (Anti-Virus).
+Quando possuem é al
+
+Sistemas operacionais linux e BSD sempre tiveram uma grande
+preocupação com segurança, o que fez com que esses sistemas fossem os
+mais utilizados em infraestruturas críticas.
