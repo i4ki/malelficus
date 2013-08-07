@@ -22,7 +22,8 @@ The linux kernel has nothing about malware security on userspace, the same for B
 
 Are you sure that your unix-servers are malware-free?
 
-How do you know that has no backdoor if you are not running any antivirus on the servers?
+How do you know that has no modified binary if you are not running any antivirus on the servers?
+You check the md5sum of every binary of the disk periodically ?
 
 You know that the majority of AV available for linux seek for Windows viruses? Not unix viruses?
 
