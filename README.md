@@ -21,7 +21,9 @@ ignored on unix-like operating systems? Any answer to this question is doubtful.
 The linux kernel has nothing about malware security on userspace, the same for BSD (FreeBSD, OpenBSD, etc).
 
 Are you sure that your unix-servers are malware-free?
+
 How do you know that has no backdoor if you are not running any antivirus on the servers?
-You know that the majority of AV available for linux seek for Windows viruses? Not unix viruses.
+
+You know that the majority of AV available for linux seek for Windows viruses? Not unix viruses?
 
 Malelficus is just a research in this dark land.
