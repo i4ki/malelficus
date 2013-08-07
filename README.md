@@ -8,14 +8,15 @@ analysis and development.
 
 Below is a list of projects that are part of malelficus:
 
-* libmalelf - C library to ELF analysis.
-* malelf - Software used to create, view, modify and infect ELF
+* [libmalelf](https://github.com/SecPlus/libmalelf) - C library to ELF analysis.
+* [malelf](https://github.com/SecPlus/malelf) - Software used to create, view, modify and infect ELF
   binaries.
-* gui-malelf - Graphical User Interface to ELF edit.
+* [malelfgui](https://github.com/SecPlus/malelfgui) - Graphical User Interface to ELF edit.
 
-Introduction
+Why malelficus?
 ==========
 
 We know how malware is a serious problem on Windows OS, but why this
 ignored on unix-like operating systems? Any answer to this question is doubtful.
 The linux kernel has nothing about malware security on userspace, the same for BSD (FreeBSD, OpenBSD, etc).
+Malelficus is just a research in this land.
