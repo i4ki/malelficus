@@ -16,15 +16,15 @@ Below is a list of projects that are part of malelficus:
 Why malelficus?
 ==========
 
-We know how malware is a serious problem on Windows OS, but why this
+We know how malware is a serious problem on Windows OS, but why this is
 ignored on unix-like operating systems? Any answer to this question is doubtful.
 The linux kernel has nothing about malware security on userspace, the same for BSD (FreeBSD, OpenBSD, etc).
 
 Are you sure that your unix-servers are malware-free?
 
 How do you know that has no modified binary if you are not running any antivirus on the servers?
-You check the md5sum of every binary of the disk periodically ?
+Do you check the md5sum of every binary of the disk periodically ?
 
-You know that the majority of AV available for linux seek for Windows viruses? Not unix viruses?
+Did you know that the majority of AV available for linux seek for Windows viruses? Not unix viruses?
 
 Malelficus is just a research in this dark land.
