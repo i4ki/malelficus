@@ -1,0 +1,7 @@
+TODO List:
+
+* Fix build on MacOS Systems - Benatto
+* Track bugs on malformed binaries (Including the one provided by Logan) - i4k
+* Finish the python binding - i4k
+* Add Infect documentation - Vitti/Rafa
+* Fix Unit-tests and build problems on travis-ci (https://travis-ci.org/SecPlus/libmalelf/) - benatto/i4k/rafa/vitti
