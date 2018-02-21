@@ -3,7 +3,7 @@ title: "malelficus"
 author: "malelficus project"
 email: "maleficus@gmail.com"
 description: "Documentation of malelficus project."
-baseurl: http://secplus.github.io/malelficus
+baseurl: http://tiago4orion.github.io/malelficus
 source: .
 paginate: 5
 paginate_files:
